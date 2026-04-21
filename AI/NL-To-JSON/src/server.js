@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// ───── multer setup ─────
+// ───── multer setup(saves files received) ─────
 const upload = multer({ dest: "uploads/" });
 
 // ───── health ─────

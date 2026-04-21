@@ -3,7 +3,7 @@ import { safeParseJSON, extractJSON } from "./safePrase.js";
 import "dotenv/config";
 
 const MODEL = "openai/gpt-oss-120b:free";
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.API_KEY ;
 
 export async function parseRequirement(text) {
   console.log(API_KEY);
