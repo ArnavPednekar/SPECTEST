@@ -1,5 +1,5 @@
 import { SYSTEM_PROMPT } from "./prompt.js";
-import { safeParseJSON, extractJSON } from "./safePrase.js";
+import { extractJSON } from "./safePrase.js";
 import "dotenv/config";
 
 const MODEL = "openai/gpt-oss-120b:free";
